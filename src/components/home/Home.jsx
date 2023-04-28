@@ -7,28 +7,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Home() {
   return (
     <div className="home">
-      <div className="intro">
-        <img src={profile} alt="profile" />
-        <p>
-          Professional designer combines his photography degree with his
-          marketing degree to find the right balance between creativity and
-          commercial sense. Vincent is an experienced all round photographer and
-          moved to Stirling at the end of 2017.
-        </p>
+      <div className="intro-container">
+        <div className="intro">
+          <img src={profile} alt="profile" />
+          <p>
+            Professional designer combines his photography degree with his
+            marketing degree to find the right balance between creativity and
+            commercial sense. Vincent is an experienced all round photographer
+            and moved to Stirling at the end of 2017.
+          </p>
+        </div>
       </div>
-      <div className="info">
-        <h2>portfolio</h2>
-        <h2>design</h2>
-        <h4>outside, tasty on the inside.</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
-          tellus cras adipiscing enim. Ut porttitor leo a diam sollicitudin.
-          Turpis in eu mi bibendum neque egestas congue{" "}
-          <a href="#0">quisque egestas</a>. Viverra adipiscing at in tellus
-          integer.
-        </p>
-        <button className="btn_learn_more">Learn More</button>
+      <div className="info-container">
+        <div className="info">
+          <h2>portfolio</h2>
+          <h2>design</h2>
+          <h4>outside, tasty on the inside.</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+            tellus cras adipiscing enim. Ut porttitor leo a diam sollicitudin.
+            Turpis in eu mi bibendum neque egestas congue{" "}
+            <a href="#0">quisque egestas</a>. Viverra adipiscing at in tellus
+            integer.
+          </p>
+          <button className="btn_learn_more">Learn More</button>
+        </div>
       </div>
       <div className="grid-container">
         <div className="grid-item">
