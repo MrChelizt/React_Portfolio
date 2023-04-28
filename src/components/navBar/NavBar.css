@@ -1,0 +1,19 @@
+#hamburger {
+  color: white;
+  height: 30px;
+}
+
+#hamburger :hover {
+  color: coral;
+}
+
+.navBar img {
+  height: 60px;
+  margin: 20px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
